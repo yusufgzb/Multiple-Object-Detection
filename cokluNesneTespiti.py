@@ -30,7 +30,6 @@ while True:
         trackers.add(tracker, frame, box)
     elif key == ord("q"):break
 
-    f = f + 1
     
 cap.release()
 cv2.destroyAllWindows() 
