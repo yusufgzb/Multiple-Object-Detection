@@ -4,7 +4,7 @@ trackers = cv2.MultiTracker_create()
 
 cap = cv2.VideoCapture(0)
 
-fps = 30     
+fps = 30#kamera yada videonun fps değeri
 f = 0
 while True:
     ret, frame = cap.read()
